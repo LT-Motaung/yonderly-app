@@ -1,0 +1,243 @@
+.landingContainer {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
+  font-family: 'Inter', sans-serif;
+  color: #1a202c;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem 2rem 2rem;
+  background: rgba(255,255,255,0.7);
+  border-radius: 2rem;
+  margin: 2rem auto 0 auto;
+  max-width: 1100px;
+  box-shadow: 0 8px 32px rgba(60,60,120,0.08);
+}
+
+.heroContent {
+  flex: 1;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  letter-spacing: -2px;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #6366f1;
+}
+
+.description {
+  font-size: 1.15rem;
+  margin-bottom: 2rem;
+  color: #334155;
+}
+
+.ai {
+  color: #10b981;
+  font-weight: 700;
+}
+
+.cta {
+  background: linear-gradient(90deg, #6366f1 0%, #10b981 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.9rem 2.2rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(60,60,120,0.10);
+  transition: background 0.2s;
+}
+
+.cta:hover {
+  background: linear-gradient(90deg, #10b981 0%, #6366f1 100%);
+}
+
+.heroImage {
+  flex: 1;
+  min-height: 250px;
+  background: linear-gradient(135deg, #6366f1 0%, #a5b4fc 100%);
+  border-radius: 1.5rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 24px rgba(60,60,120,0.10);
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 4rem auto 0 auto;
+  max-width: 1000px;
+}
+
+.featureCard {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(60,60,120,0.07);
+  padding: 2rem 1.5rem;
+  flex: 1;
+  min-width: 220px;
+  text-align: center;
+}
+
+.featureCard h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  color: #6366f1;
+}
+
+.featureCard p {
+  color: #64748b;
+  font-size: 1rem;
+}
+
+.heroImgTag {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.testimonials {
+  margin: 4rem auto 0 auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #6366f1;
+}
+
+.testimonialCards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.testimonialCard {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(60,60,120,0.07);
+  padding: 1.5rem 1.2rem;
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  font-size: 1.05rem;
+  color: #334155;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonialCard span {
+  margin-top: 1rem;
+  color: #10b981;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.pricing {
+  margin: 4rem auto 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #6366f1;
+}
+
+.pricingCards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.pricingCard {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(60,60,120,0.07);
+  padding: 2rem 1.5rem;
+  flex: 1;
+  min-width: 220px;
+  max-width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricingCard h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  color: #6366f1;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 1rem 0 1.5rem 0;
+  color: #10b981;
+}
+
+.price span {
+  font-size: 1rem;
+  color: #64748b;
+  font-weight: 400;
+}
+
+.pricingCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.pricingCard ul li {
+  margin-bottom: 0.5rem;
+  color: #334155;
+  font-size: 1rem;
+}
+
+.footer {
+  margin: 4rem auto 0 auto;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  color: #64748b;
+  font-size: 1rem;
+  border-top: 1px solid #e5e7eb;
+  background: rgba(255,255,255,0.6);
+  border-radius: 0 0 2rem 2rem;
+}
+
+.footer a {
+  color: #6366f1;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+} 
